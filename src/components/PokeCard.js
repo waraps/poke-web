@@ -24,7 +24,6 @@ export default function PokeCard({pokemon}) {
     const getDetails = async () => {
         try {
             const response = await getPokemon(pokemon.url)
-            console.log(response)
             setDetails(response)
             openModal()
         } catch (error) {
@@ -44,8 +43,8 @@ export default function PokeCard({pokemon}) {
                   isOpen={isModalOpen}
                   transition={ModalTransition.SCALE}
                 >
-                  <PokeDetails details={details} />
-                  <button onClick={closeModal}>Cerrar</button>
+                    <button onClick={closeModal}>Cerrar</button>
+                    <PokeDetails details={details} />
                 </Modal>
             </div>
     )
