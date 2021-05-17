@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import './App.css';
 
 // API
-import getPokemons from './api/index'
+import {getPokemons} from './api/index'
 
 // Components
 import PokeSearch from './components/PokeSearch'
