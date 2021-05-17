@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react'
+import {
+  ModalProvider,
+} from 'react-simple-hook-modal';
 import './App.css';
 
 // API
@@ -50,16 +53,18 @@ function App() {
   }
 
   return (
-    <div>
-      <PokeSearch pokeName={name} setName={setName}/>
-      <PokeList pokemons={listPokemons}/>
-      <div className='load-more'>
-        {
-          isLoading ? <a className='load-more-btn' onClick={loadMore}>Cargando ..</a>
-                    : <a className='load-more-btn' onClick={loadMore}>Cargar mas</a>
-        }
+    <ModalProvider>
+      <div>
+        <PokeSearch pokeName={name} setName={setName}/>
+        <PokeList pokemons={listPokemons}/>
+        <div className='load-more'>
+          {
+            isLoading ? <a className='load-more-btn' onClick={loadMore}>Cargando ..</a>
+                      : <a className='load-more-btn' onClick={loadMore}>Cargar mas</a>
+          }
+        </div>
       </div>
-    </div>
+    </ModalProvider>
   )
 }
 
