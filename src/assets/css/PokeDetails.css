@@ -16,6 +16,7 @@
     font-size: 50px;
     font-weight: 500;
     color: #ffcb05;
+    text-decoration: underline;
 }
 
 .poke-info {
@@ -60,6 +61,7 @@
 
 .poke-info-list-item {
     /* margin-left: 15px; */
+    font-weight: 500;
 }
 
 .poke-info-list-stats {
