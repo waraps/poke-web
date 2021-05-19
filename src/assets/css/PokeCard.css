@@ -31,3 +31,15 @@
     font-size: 20px;
     font-weight: 800;
 }
+
+@media only screen and (min-width: 411px) and (max-width: 960px) {
+    .card {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .card {
+        width: 48%;
+    }
+}
