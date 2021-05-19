@@ -43,7 +43,7 @@ export default function PokeCard({pokemon}) {
                   isOpen={isModalOpen}
                   transition={ModalTransition.SCALE}
                 >
-                    <button onClick={closeModal}>Cerrar</button>
+                    <button onClick={closeModal} className='btn-close'><p className='btn-close-icon'>x</p></button>
                     <PokeDetails details={details} />
                 </Modal>
             </div>

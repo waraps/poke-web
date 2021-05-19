@@ -12,3 +12,22 @@
     text-transform: capitalize;
     cursor: pointer;
 }
+
+.btn-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.btn-close-icon {
+    font-size: 20px;
+    font-weight: 800;
+}
