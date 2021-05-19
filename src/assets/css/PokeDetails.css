@@ -2,3 +2,89 @@
     text-transform: capitalize;
     color: #444;
 }
+
+.poke-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.poke-name {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffcb05;
+}
+
+.poke-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.poke-details-container-item {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.poke-details-container-item-p {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.info-title {
+    color: #3c5aa6;
+}
+
+.poke-abilities-types {
+    display: flex;
+}
+
+.poke-info-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.poke-info-list-item {
+    /* margin-left: 15px; */
+}
+
+.poke-info-list-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poke-info-list-item-stats {
+    margin: 15px;
+}
+
+.poke-info-list-moves {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.poke-info-list-moves-item {
+    flex-grow: 1;
+    width: 25%;
+    margin: 2px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
