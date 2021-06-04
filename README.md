@@ -22,7 +22,7 @@ $ npm install
 
 Want to test? Great!
 
-PokeApp uses ReactJs for developing.
+Poke web uses ReactJs for developing.
 Make a change in your file and instantaneously see your updates!
 
 Open your favorite Terminal and run this command.
