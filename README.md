@@ -1,4 +1,4 @@
-# Poko web 📱
+# Poke web 💻
 
 Poke we is an web app based on pokemons characters. So, what can you do with this app?
 
