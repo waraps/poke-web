@@ -1,6 +1,6 @@
 # Poke web 💻
 
-Poke we is an web app based on pokemons characters. So, what can you do with this app?
+Pokeb we is an web app based on pokemons characters. So, what can you do with this app?
 
 You can:
 
@@ -30,3 +30,6 @@ Open your favorite Terminal and run this command.
 ```sh
 $ npm start
 ```
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
